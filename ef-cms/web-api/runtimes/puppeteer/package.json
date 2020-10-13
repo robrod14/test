@@ -1,0 +1,27 @@
+{
+  "name": "chrome-aws-lambda-layer",
+  "version": "0.0.2",
+  "description": "Layer Only Packaging",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "keywords": [
+    "Lambda",
+    "Layers"
+  ],
+  "license": "CC0-1.0",
+  "dependencies": {
+    "chrome-aws-lambda": "^3.1.1",
+    "handlebars": "^4.7.6",
+    "node-sass": "^4.13.0",
+    "npm-force-resolutions": "0.0.3",
+    "pug": "^3.0.0",
+    "puppeteer-core": "^4.0.1"
+  },
+  "resolutions": {
+    "bl": "^4.0.3",
+    "lodash": "^4.17.19",
+    "minimist": "^1.2.5"
+  }
+}
